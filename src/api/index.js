@@ -5,8 +5,8 @@ const API_KEY = '8bcc82548e0d4080bd4151848171011';
 class WearherAPI {
     constructor(key) {
         this.API_KEY = key;
-        this.CURRENT_WEATER = 'http://api.apixu.com/v1/current.json';
-        this.FORECAST_WEATHER = 'http://api.apixu.com/v1/forecast.json';
+        this.CURRENT_WEATER = 'https://api.apixu.com/v1/current.json';
+        this.FORECAST_WEATHER = 'https://api.apixu.com/v1/forecast.json';
     }
 
     createUri(weatherType, city = '') {
